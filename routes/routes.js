@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-router.get('/', (req, res)=>{
+router.get('/', (req, res) => {
     res.send({
         title: 'Welcome to my API',
         author: 'Carlos Alba',
@@ -9,6 +9,4 @@ router.get('/', (req, res)=>{
     });
 });
 
-
-
-module.exports =  router;
+module.exports = router;
